@@ -8,3 +8,25 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
   });
+
+  document.querySelectorAll('.edit-btn').forEach(function(button) {
+    button.addEventListener('click', function() {
+      alert('Edit button clicked');
+      // Perform edit operation here
+    });
+  });
+  
+  document.querySelectorAll('.delete-btn').forEach(function(button) {
+    button.addEventListener('click', function() {
+      alert('Delete button clicked');
+      // Perform delete operation here
+    });
+  });
+
+  
+  
+  
+  
+  
+  
+  
